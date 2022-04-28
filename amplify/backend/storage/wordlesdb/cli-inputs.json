@@ -1,0 +1,14 @@
+{
+  "resourceName": "wordlesdb",
+  "tableName": "wordlesdb",
+  "partitionKey": {
+    "fieldName": "username",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "number",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

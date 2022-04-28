@@ -1,0 +1,37 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-trackleapp-dev-125841-authRole",
+      "UnauthRoleArn": "arn:aws:iam::576636911260:role/amplify-trackleapp-dev-125841-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::576636911260:role/amplify-trackleapp-dev-125841-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-trackleapp-dev-125841-deployment",
+      "UnauthRoleName": "amplify-trackleapp-dev-125841-unauthRole",
+      "StackName": "amplify-trackleapp-dev-125841",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:576636911260:stack/amplify-trackleapp-dev-125841/1f594400-c1e8-11ec-80e1-02c225e8819a",
+      "AmplifyAppId": "drld73fvcmali",
+      "APIGatewayAuthURL": "https://s3.amazonaws.com/amplify-trackleapp-dev-125841-deployment/amplify-cfn-templates/api/APIGatewayAuthStack.json"
+    },
+    "categories": {
+      "auth": {
+        "trackleappb41d9e70": {}
+      },
+      "function": {
+        "wordlesfunction": {
+          "deploymentBucketName": "amplify-trackleapp-dev-125841-deployment",
+          "s3Key": "amplify-builds/wordlesfunction-482f6a70594478746730-build.zip"
+        },
+        "userclubsfunction": {
+          "deploymentBucketName": "amplify-trackleapp-dev-125841-deployment",
+          "s3Key": "amplify-builds/userclubsfunction-3238344e565365524876-build.zip"
+        }
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "drld73fvcmali",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

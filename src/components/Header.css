@@ -1,0 +1,19 @@
+#main {
+    width: 200px;
+    border: 1px dotted black;
+}
+h1 {
+    margin: 0;
+    /* display: inline-block; */
+    text-align: center
+}
+.signoutbutton {
+    width: 120px;
+}
+/* .button {
+    float: right;
+} */
+/* .invisbutton {
+    float: left;
+    visibility: hidden;
+} */
